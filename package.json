@@ -1,6 +1,6 @@
 {
     "name" : "put",
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "description" : "Pack multibyte binary values into buffers",
     "main" : "./index.js",
     "keywords": [
@@ -16,7 +16,9 @@
         "test" : "expresso"
     },
     "engines": {
-        "node": ">=0.3.0"
+        "node" : ">=0.3.0"
     },
-    "license": { "type": "MIT/X11" }
+    "license": {
+        "type" : "MIT/X11"
+    }
 }
