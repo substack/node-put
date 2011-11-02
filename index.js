@@ -43,6 +43,10 @@ function Put () {
         return this;
     };
     
+    this.len = function () {
+        return len;
+    };
+    
     this.buffer = function () {
         var buf = new Buffer(len);
         var offset = 0;
