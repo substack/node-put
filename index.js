@@ -43,7 +43,7 @@ function Put () {
         return this;
     };
     
-    this.len = function () {
+    this.length = function () {
         return len;
     };
     
