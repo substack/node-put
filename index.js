@@ -48,7 +48,7 @@ function Put () {
     };
     
     this.buffer = function () {
-        var buf = new Buffer(len);
+        var buf = Buffer.alloc(len);
         var offset = 0;
         words.forEach(function (word) {
             if (word.buffer) {
